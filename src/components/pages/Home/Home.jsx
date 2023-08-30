@@ -1,4 +1,4 @@
-import { Container } from "../../components/Container.styled"
+import { Container } from "../../Container.styled"
 
 export default function Home() {
     return(
