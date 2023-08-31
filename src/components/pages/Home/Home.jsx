@@ -1,9 +1,9 @@
-import { Container } from "../../Container.styled"
+import { Container } from "../../styles/Container.styled";
 
 export default function Home() {
-    return(
-        <Container>
-            <h1>Home Page</h1>
-        </Container>
-    )
+  return (
+    <Container>
+      <h1>Home Page</h1>
+    </Container>
+  );
 }
