@@ -1,5 +1,7 @@
 import { styled } from "styled-components";
 import dancingCouple from "../../../assets/img/dancing_centerU.png";
+// Create a GlobalStyles component to import and apply Google Fonts
+
 
 export const HomeStyled = styled.div`
   width: 100%;

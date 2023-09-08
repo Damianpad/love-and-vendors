@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&family=Playfair+Display&display=swap');
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,3 +42,5 @@
 .read-the-docs {
   color: #888;
 }
+
+

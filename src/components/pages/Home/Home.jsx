@@ -1,15 +1,19 @@
 import { Container } from "../../styles/Container.styled";
 import { HomeStyled } from "./Home.styled";
+import DynamicHeading from "../../DynamicHeading/DynamicHeading";
 
 export default function Home() {
   return (
     <HomeStyled>
+      
       <Container>
         <span>Navigation</span>
         <button>Log in</button>
       </Container>
 
       <section className="headerContainer">
+
+        <DynamicHeading />
         {/* <img
           src="src\assets\img\dancing_centerU.png"
           alt=""
