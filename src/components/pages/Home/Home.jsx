@@ -5,11 +5,7 @@ import DynamicHeading from "../../DynamicHeading/DynamicHeading";
 export default function Home() {
   return (
     <HomeStyled>
-      
-      <Container>
-        <span>Navigation</span>
-        <button>Log in</button>
-      </Container>
+  
 
       <section className="headerContainer">
 
