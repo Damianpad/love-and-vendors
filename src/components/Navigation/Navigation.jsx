@@ -5,9 +5,12 @@ export default function Navigation() {
   return (
     <NavigationStyled>
       <nav>
-        <Link to={"/"}>Love & Vendors</Link>
-        <Link to={"/getting-started"}>Getting Started</Link>
-        <Link to={"/login"}>Log in</Link>
+        <Link to={"/"} className="logo">Love & Vendors</Link>
+        <section className="btnContainer">
+        <Link to={"/getting-started"} className="getStartedBtn">Getting Started</Link>
+        <Link to={"/login"} className="loginBtn">Log in</Link>
+        </section>
+
       </nav>
     </NavigationStyled>
   );
