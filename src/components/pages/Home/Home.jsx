@@ -1,14 +1,22 @@
 import { Container } from "../../styles/Container.styled";
+import { HomeStyled } from "./Home.styled";
 
 export default function Home() {
   return (
-    <>
+    <HomeStyled>
       <Container>
         <span>Navigation</span>
         <button>Log in</button>
       </Container>
 
-      <img src="src\assets\img\dancing_centerU.png" alt="" />
+      <section className="headerContainer">
+        {/* <img
+          src="src\assets\img\dancing_centerU.png"
+          alt=""
+          className="headerImg"
+        /> */}
+      </section>
+
       <h1>Home Page</h1>
 
       <section>
@@ -23,7 +31,7 @@ export default function Home() {
       </section>
 
       <section>
-        <img src="src\assets\img\LV_1.jpg" alt="" />
+        <img src="src\assets\img\LV_1.jpg" alt="" className="ctaImg" />
         <h2>Discover the best in your area</h2>
         <h3>Find the perfect vendor for your day.</h3>
         <button>Get Started</button>
@@ -32,6 +40,6 @@ export default function Home() {
       <section>
         <span>Footer Component</span>
       </section>
-    </>
+    </HomeStyled>
   );
 }
