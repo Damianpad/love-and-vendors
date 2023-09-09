@@ -48,4 +48,44 @@ export const HomeStyled = styled.div`
     width: 100%;
     border-radius: 15px;
   }
+
+  .discoverContainer {
+    background: #FAD7D7;
+    padding: 1em;
+  }
+
+  .discoverHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em;
+  }
+
+  .discoverHeader img{
+    
+    width: 60%;
+    height: 40vh;
+    object-fit: cover;
+  }
+
+  .discoverHeader h2{
+    padding: .5em;
+    width: 50%;
+  }
+
+  .discoverContainer h3{
+    font-size: 34px;
+    text-align: left;
+    width: 40%;
+    padding: 1em;
+    font-weight: 200;
+  }
+
+  .discoverContainer button{
+    background: black;
+    padding: .5em;
+    font-size:24px;
+    width: 35%;
+  }
 `;

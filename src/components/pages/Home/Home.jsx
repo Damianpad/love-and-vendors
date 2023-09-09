@@ -25,9 +25,12 @@ export default function Home() {
         <Vendor type="Venues" img={Venues}/>
       </section>
 
-      <section>
+      <section className="discoverContainer">
+        <section className="discoverHeader">
         <img src="src\assets\img\LV_1.jpg" alt="" className="ctaImg" />
         <h2>Discover the best in your area</h2>
+        </section>
+
         <h3>Find the perfect vendor for your day.</h3>
         <button>Get Started</button>
       </section>
