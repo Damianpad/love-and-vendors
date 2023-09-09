@@ -1,23 +1,18 @@
 import { Container } from "../../styles/Container.styled";
 import { HomeStyled } from "./Home.styled";
 import DynamicHeading from "../../DynamicHeading/DynamicHeading";
+import Vendor from "../../Vendor/Vendor";
+import Videographer from "../../../assets/img/LV_videographer.jpg"
+import Photographer from "../../../assets/img/LV_photographer.jpg"
+import Venues from "../../../assets/img/LV_venues.jpg"
 
 export default function Home() {
   return (
     <HomeStyled>
-  
 
       <section className="headerContainer">
-
         <DynamicHeading />
-        {/* <img
-          src="src\assets\img\dancing_centerU.png"
-          alt=""
-          className="headerImg"
-        /> */}
       </section>
-
-      <h1>Home Page</h1>
 
       <section>
         <h2>Finding what you need all in one place</h2>
@@ -25,9 +20,9 @@ export default function Home() {
       </section>
 
       <section>
-        <span>Videographer Vendor</span>
-        <span>Photographer Vendor</span>
-        <span>Venues Vendor</span>
+        <Vendor type="Videographer" img={Videographer}/>
+        <Vendor type="Photographer" img={Photographer}/>
+        <Vendor type="Venues" img={Venues}/>
       </section>
 
       <section>
