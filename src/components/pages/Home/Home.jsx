@@ -5,6 +5,7 @@ import Vendor from "../../Vendor/Vendor";
 import Videographer from "../../../assets/img/LV_videographer.jpg"
 import Photographer from "../../../assets/img/LV_photographer.jpg"
 import Venues from "../../../assets/img/LV_venues.jpg"
+import DiscoverImage from "../../../assets/img/LV_1.jpg"
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
 
       <section className="discoverContainer">
         <section className="discoverHeader">
-        <img src="src\assets\img\LV_1.jpg" alt="" className="ctaImg" />
+        <img src={DiscoverImage} alt="" className="ctaImg" />
         <h2>Discover the best in your area</h2>
         </section>
 
