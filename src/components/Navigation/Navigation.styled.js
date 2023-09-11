@@ -60,4 +60,14 @@ export const NavigationStyled = styled.div`
     align-items: center;
     justify-content: center;
   }
+
+  @media (max-width: 425px) {
+        color: white;
+        .getStartedBtn{
+          font-size: 12px;
+        }
+        .loginBtn{
+          font-size: 20px;
+        }
+    }
 `;

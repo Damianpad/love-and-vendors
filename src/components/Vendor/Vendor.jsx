@@ -6,7 +6,7 @@ export default function Vendor(props) {
     backgroundImage: `url(${props.img})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    width: "100%",
+    width: "90%",
     height: "400px",
     margin: "1em auto",
     position: "relative",
@@ -14,13 +14,11 @@ export default function Vendor(props) {
 
   return (
     <VendorStyled style={containerImage}>
-        <section className="overlay">
-
+      <section className="overlay">
         <nav>
-        <Link className="vendorType">{props.type}</Link>
-      </nav>
-        </section>
-
+          <Link className="vendorType">{props.type}</Link>
+        </nav>
+      </section>
     </VendorStyled>
   );
 }

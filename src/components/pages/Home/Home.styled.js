@@ -88,4 +88,8 @@ export const HomeStyled = styled.div`
     font-size:24px;
     width: 35%;
   }
+
+  @media (max-width: 425px) {
+      
+    }
 `;

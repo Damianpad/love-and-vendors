@@ -21,4 +21,8 @@ export const DynamicHeadingStyled = styled.h1`
   .heading.fade-out {
     opacity: 0; /* Set opacity to 0 when fading out */
   }
+
+  @media (max-width: 425px) {
+      font-size: 15px;
+    }
 `;
