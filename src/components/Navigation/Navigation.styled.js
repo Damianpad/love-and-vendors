@@ -45,6 +45,7 @@ export const NavigationStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100px;
   }
 
   .loginBtn {
@@ -59,15 +60,38 @@ export const NavigationStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 120px;
   }
 
   @media (max-width: 425px) {
         color: white;
         .getStartedBtn{
           font-size: 12px;
+          
         }
         .loginBtn{
           font-size: 20px;
         }
     }
+    @media (min-width: 666px){
+      .getStartedBtn{
+        width: 150px;
+        max-width: 500px;
+      }
+      .loginBtn{
+        width: 180px;
+        max-width: 500px;
+      }
+    }
+  @media (min-width: 700px){
+    .getStartedBtn{
+          
+          width: 200px;
+          max-width: 500px;
+        }
+      .loginBtn{
+        width: 230px;
+          max-width: 500px;
+      }
+  }
 `;
