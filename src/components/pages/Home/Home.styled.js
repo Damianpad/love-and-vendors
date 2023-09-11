@@ -59,7 +59,7 @@ export const HomeStyled = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 2em;
+    padding: 2em 2em 0 2em;
   }
 
   .discoverHeader img{
@@ -80,6 +80,7 @@ export const HomeStyled = styled.div`
     width: 40%;
     padding: 1em;
     font-weight: 200;
+    margin: 0;
   }
 
   .discoverContainer button{
