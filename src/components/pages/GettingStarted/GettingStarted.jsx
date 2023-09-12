@@ -1,5 +1,6 @@
 import StartedImage from "../../StartedImage/StartedImage";
 import { GettingStartedStyles } from "./GettingStarted.styled";
+import GSStep from "../../GSStep/GSStep";
 
 export default function GettingStarted() {
   return (
@@ -9,7 +10,7 @@ export default function GettingStarted() {
           <StartedImage />
         </section>
         <section>
-          <span>step component</span>
+          <GSStep />
           <h2>Welcome to Love & Vendors! Let's get you to the right place.</h2>
           <span>Getting Started Component</span>
           <span>
