@@ -8,7 +8,7 @@ export default function Vendor(props) {
     backgroundPosition: "center",
     width: "90%",
     height: "400px",
-    margin: "1em auto",
+    margin: "1em",
     position: "relative",
   };
 

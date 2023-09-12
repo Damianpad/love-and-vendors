@@ -15,12 +15,12 @@ export default function Home() {
         <DynamicHeading />
       </section>
 
-      <section>
+      <section className="finderContainer">
         <h2>Finding what you need all in one place</h2>
         <button>Find More</button>
       </section>
 
-      <section>
+      <section className="vendorContainer">
         <Vendor type="Videographer" img={Videographer}/>
         <Vendor type="Photographer" img={Photographer}/>
         <Vendor type="Venues" img={Venues}/>

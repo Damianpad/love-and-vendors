@@ -34,4 +34,9 @@ export const VendorStyled = styled.div`
     height: 200px;
     font-size: 3rem;
   }
+  @media (max-width: 1000px) {
+    nav {
+      width: 100%;
+    }
+  }
 `;

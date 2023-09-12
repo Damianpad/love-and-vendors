@@ -25,4 +25,13 @@ export const DynamicHeadingStyled = styled.h1`
   @media (max-width: 425px) {
       font-size: 15px;
     }
+  @media (min-width: 1000px){
+    font-size: 27px; 
+  }
+  @media (min-width: 1400px) {
+    
+      font-size: 50px;
+      width: 90%;
+
+  }
 `;
