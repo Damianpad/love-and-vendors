@@ -6,6 +6,7 @@ import Home from "./components/pages/Home/Home";
 import GettingStarted from "./components/pages/GettingStarted/GettingStarted";
 import Login from "./components/pages/Login/Login";
 import Navigation from "./components/Navigation/Navigation";
+import CoupleInfo from "./components/pages/CoupleInfo/CoupleInfo";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/getting-started" element={<GettingStarted />}></Route>
         <Route path="/login" element={<Login />}></Route>
+        <Route path="/couple-info" element={<CoupleInfo />}></Route>
       </Routes>
     </>
   );

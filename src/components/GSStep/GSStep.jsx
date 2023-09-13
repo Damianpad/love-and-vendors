@@ -3,20 +3,21 @@ import { useState } from "react";
 import { useLocation } from "react-router-dom";
 
 export default function GSStep() {
+  const location = useLocation();
+  const [select, setSelect] = useState(false);
 
-    const location = useLocation();
-    const [select, setSelect] = useState(false);
+  const getStarted = "/getting-started";
 
-    const getStarted = "/getting-started"
-
-    const isOnGetStarted = location.pathname === getStarted
+  const isOnGetStarted = location.pathname === getStarted;
+  const isOnClientInfo = location.pathname === "/couple-info";
 
   return (
     <GSStepStyled>
       <h1>Getting Started</h1>
       <section className="stepContainer">
         <section className="step1">
-          <section className="numberContainer">
+          <section className={isOnGetStarted ? "numberContainer"
+          : "numberContainerNotSelected"}>
             <span className="stepNumber">1</span>
           </section>
 
@@ -24,7 +25,8 @@ export default function GSStep() {
         </section>
 
         <section className="step2">
-          <section className="numberContainerNotSelected">
+          <section className={isOnClientInfo ? "numberContainer"
+          : "numberContainerNotSelected"}>
             <span className="stepNumber">2</span>
           </section>
 
