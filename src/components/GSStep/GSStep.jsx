@@ -7,13 +7,15 @@ export default function GSStep() {
   const [select, setSelect] = useState(false);
 
   const getStarted = "/getting-started";
+  const coupleInfo = "/couple-info";
+  const coupleFinish = "/couple-finish";
 
   const isOnGetStarted = location.pathname === getStarted;
-  const isOnClientInfo = location.pathname === "/couple-info";
+  const isOnClientInfo = location.pathname === coupleInfo;
+  const isOnClientFinish = location.pathname === coupleFinish;
 
   return (
     <GSStepStyled>
-      <h1>Getting Started</h1>
       <section className="stepContainer">
         <section className="step1">
           <section className={isOnGetStarted ? "numberContainer"
@@ -34,7 +36,8 @@ export default function GSStep() {
         </section>
 
         <section className="step3">
-          <section className="numberContainerNotSelected">
+          <section className={isOnClientFinish ? "numberContainer"
+          : "numberContainerNotSelected"}>
             <span className="stepNumber">3</span>
           </section>
 

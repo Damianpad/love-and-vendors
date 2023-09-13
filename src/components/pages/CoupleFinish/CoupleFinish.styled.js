@@ -1,5 +1,5 @@
 import styled from "styled-components";
 
-export const CoupleInfoStyles = styled.div`
+export const CoupleFinishStyles = styled.div`
     color: black;
 `;
