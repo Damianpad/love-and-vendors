@@ -8,6 +8,7 @@ import Login from "./components/pages/Login/Login";
 import Navigation from "./components/Navigation/Navigation";
 import CoupleInfo from "./components/pages/CoupleInfo/CoupleInfo";
 import CoupleFinish from "./components/pages/CoupleFinish/CoupleFinish";
+import VendorInfo from "./components/pages/VendorInfo/VendorInfo";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/login" element={<Login />}></Route>
         <Route path="/couple-info" element={<CoupleInfo />}></Route>
         <Route path="/couple-finish" element={<CoupleFinish />}></Route>
+        <Route path="/vendor-info" element={<VendorInfo/>}></Route>
       </Routes>
     </>
   );
