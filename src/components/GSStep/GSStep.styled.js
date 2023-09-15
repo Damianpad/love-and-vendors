@@ -5,8 +5,9 @@ export const GSStepStyled = styled.div`
   flex-direction: column;
 
   .title {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 200;
+    margin: .6em;
   }
 
   .stepContainer {
@@ -42,20 +43,21 @@ export const GSStepStyled = styled.div`
 
   .stepNumber {
     color: white;
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .numberContainer {
     background: black;
     border-radius: 50%;
-    width: 80px;
+    width: 50px;
+    border: 1px solid black;
   }
 
   .numberContainerNotSelected {
     background: white;
     border: 1px solid black;
     border-radius: 50%;
-    width: 80px;
+    width: 50px;
   }
   .numberContainerNotSelected span {
     color: #9b9b9b;

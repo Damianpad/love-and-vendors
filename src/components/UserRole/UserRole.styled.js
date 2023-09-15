@@ -5,10 +5,11 @@ display: flex;
 flex-direction: column;
 
 h2 {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
-    padding: 1em;
+    padding: 2em 0;
     font-weight: 200;
+    font-size: 20px;
 }
 
 span {
@@ -19,10 +20,10 @@ a {
     color: white;
     background: black;
     width: 60%;
-    margin: 1em auto;
-    padding: 1em;
+    margin: .8em auto;
+    padding: .8em;
     border-radius: 15px;
-    font-size: 30px;
+    font-size: 20px;
 }
 Button{
     /* font-size: 30px;
