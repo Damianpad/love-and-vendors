@@ -25,7 +25,7 @@ export default function GSStep() {
         <section className="step1">
           <section
             className={
-              isOnGetStarted || isOnVendorInfo
+              isOnGetStarted 
                 ? "numberContainer"
                 : "numberContainerNotSelected"
             }
@@ -39,7 +39,7 @@ export default function GSStep() {
         <section className="step2">
           <section
             className={
-              isOnClientInfo ? "numberContainer" : "numberContainerNotSelected"
+              isOnClientInfo || isOnVendorInfo ? "numberContainer" : "numberContainerNotSelected"
             }
           >
             <span className="stepNumber">2</span>
