@@ -4,14 +4,10 @@ import { UserRoleStyled } from "./UserRole.styled";
 export default function UserRole() {
   return (
     <UserRoleStyled>
-      <span>Are You a</span>
-      <Link to="/couple-info">
-        Couple
-      </Link>
-      <span>OR</span>
-      <Link to="/vendor-info">
-        Vendor
-      </Link>
+      <h2>Welcome to Love & Vendors! Let's get you to the right place.</h2>
+      <span>Are you a</span>
+      <Link to="/couple-info">Couple</Link>
+      <Link to="/vendor-info">Vendor</Link>
     </UserRoleStyled>
   );
 }

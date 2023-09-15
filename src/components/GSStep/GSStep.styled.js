@@ -4,6 +4,11 @@ export const GSStepStyled = styled.div`
   display: flex;
   flex-direction: column;
 
+  .title {
+    font-size: 40px;
+    font-weight: 200;
+  }
+
   .stepContainer {
     display: flex;
     flex-direction: row;
@@ -57,6 +62,6 @@ export const GSStepStyled = styled.div`
   }
 
   .stepName {
-    font-size: 30px;
+    font-size: 20px;
   }
 `;

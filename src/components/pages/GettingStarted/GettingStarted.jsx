@@ -11,12 +11,12 @@ export default function GettingStarted() {
         <section>{/* <StartedImage /> */}</section>
         <section>
           <GSStep />
-          <h2>Welcome to Love & Vendors! Let's get you to the right place.</h2>
+          
           <UserRole />
           
           <span>
             Already have an account?
-            <Link>Login</Link>
+            <Link className="loginLink"> Log in</Link>
           </span>
         </section>
       </section>

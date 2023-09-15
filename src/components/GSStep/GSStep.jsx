@@ -20,6 +20,7 @@ export default function GSStep() {
 
   return (
     <GSStepStyled>
+      <h1 className="title">Getting Started</h1>
       <section className="stepContainer">
         <section className="step1">
           <section
