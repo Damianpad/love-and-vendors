@@ -10,7 +10,7 @@ export default function GSStep() {
   const coupleInfo = "/couple-info";
   const coupleFinish = "/couple-finish";
 
-  const vendorInfo = "/vendor-info"
+  const vendorInfo = "/vendor-info";
 
   const isOnGetStarted = location.pathname === getStarted;
   const isOnClientInfo = location.pathname === coupleInfo;
@@ -22,8 +22,13 @@ export default function GSStep() {
     <GSStepStyled>
       <section className="stepContainer">
         <section className="step1">
-          <section className={isOnGetStarted || isOnVendorInfo ? "numberContainer"
-          : "numberContainerNotSelected"}>
+          <section
+            className={
+              isOnGetStarted || isOnVendorInfo
+                ? "numberContainer"
+                : "numberContainerNotSelected"
+            }
+          >
             <span className="stepNumber">1</span>
           </section>
 
@@ -31,8 +36,11 @@ export default function GSStep() {
         </section>
 
         <section className="step2">
-          <section className={isOnClientInfo ? "numberContainer"
-          : "numberContainerNotSelected"}>
+          <section
+            className={
+              isOnClientInfo ? "numberContainer" : "numberContainerNotSelected"
+            }
+          >
             <span className="stepNumber">2</span>
           </section>
 
@@ -40,8 +48,13 @@ export default function GSStep() {
         </section>
 
         <section className="step3">
-          <section className={isOnClientFinish ? "numberContainer"
-          : "numberContainerNotSelected"}>
+          <section
+            className={
+              isOnClientFinish
+                ? "numberContainer"
+                : "numberContainerNotSelected"
+            }
+          >
             <span className="stepNumber">3</span>
           </section>
 

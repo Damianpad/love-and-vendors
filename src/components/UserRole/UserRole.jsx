@@ -6,10 +6,11 @@ export default function UserRole() {
     <UserRoleStyled>
       <span>Are You a</span>
       <Link to="/couple-info">
-        <button>Couple</button>
+        Couple
       </Link>
+      <span>OR</span>
       <Link to="/vendor-info">
-        <button>Vendor</button>
+        Vendor
       </Link>
     </UserRoleStyled>
   );
