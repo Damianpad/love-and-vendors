@@ -1,9 +1,17 @@
+import { useNavigate } from "react-router-dom";
 import { VendorInfoFormStyled } from "./VendorInfoForm.styled";
 
 export default function VendorInfoForm() {
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate("/couple-finish");
+  };
+
   return (
     <VendorInfoFormStyled>
-      <form action="">
+      <form action="" onSubmit={handleSubmit}>
         <section className="vendorName">
           <label>
             First Name
