@@ -9,6 +9,7 @@ import Navigation from "./components/Navigation/Navigation";
 import CoupleInfo from "./components/pages/CoupleInfo/CoupleInfo";
 import CoupleFinish from "./components/pages/CoupleFinish/CoupleFinish";
 import VendorInfo from "./components/pages/VendorInfo/VendorInfo";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/couple-finish" element={<CoupleFinish />}></Route>
         <Route path="/vendor-info" element={<VendorInfo />}></Route>
       </Routes>
+      <Footer />
     </>
   );
 }
