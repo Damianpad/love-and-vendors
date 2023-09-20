@@ -31,7 +31,6 @@ export const VendorInfoFormStyled = styled.div`
     border: none;
   }
 
-
   .imgUploadContainer label {
     display: flex;
     flex-direction: row;
