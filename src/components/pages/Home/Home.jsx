@@ -36,9 +36,6 @@ export default function Home() {
         <button>Get Started</button>
       </section>
 
-      <section>
-        <span>Footer Component</span>
-      </section>
     </HomeStyled>
   );
 }
