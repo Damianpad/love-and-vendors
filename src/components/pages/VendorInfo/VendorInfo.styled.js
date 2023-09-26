@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const VendorInfoStyled = styled.div`
 color: black;
 
+
 h2 {
     width: 80%;
     margin: 0 auto;
@@ -17,5 +18,9 @@ a{
     padding: .6em;
     font-size: 24px;
     border-radius: 15px;
+}
+
+@media (min-width: 1000px) {
+
 }
 `;

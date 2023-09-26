@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const VendorInfoFormStyled = styled.div`
   display: flex;
   flex-direction: column;
-
   padding: 2em;
 
   input {
@@ -46,5 +45,24 @@ export const VendorInfoFormStyled = styled.div`
   }
   span {
     font-size: 20px;
+  }
+
+  @media (min-width: 740px) {
+    .vendorName, .businessName, .imgUploadContainer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .imgUploadContainer span{
+      width: 30%;
+    }
+
+    .imgUploadContainer label{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 `;
