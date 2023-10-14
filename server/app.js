@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 // });
 
 // setup routes
-app.set("/auth", authRoutes);
+app.use("/auth", authRoutes);
 
 app.listen(port, () => {
   console.log(`

@@ -18,4 +18,4 @@ router.get("/google", (req, res) => {
   res.send("logging in with google");
 });
 
-module.export = router;
+module.exports = router;
