@@ -2,8 +2,8 @@ const router = require("express").Router();
 
 // auth login
 router.get("/login", (req, res) => {
-  res.render("login");
-  console.log("logged in");
+  // res.render("login");
+  res.sendFile(path.join(__dirname+'/client/build/index.html'));
 });
 
 // auth logout
