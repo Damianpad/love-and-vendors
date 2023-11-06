@@ -14,6 +14,7 @@ export const GettingStartedStyles = styled.div`
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    width: 100%;
   }
 
   .GettingStartedImage {
@@ -26,15 +27,23 @@ export const GettingStartedStyles = styled.div`
   }
 
   .ImageContainer {
-    width: 50%;
+    display: none;
   }
 
   .GSStepContainer {
-    width: 50%;
+    margin: 0 auto;
+
+  }
+
+  @media (min-width: 750px) {
+    .ImageContainer {
+      width: 50%;
+      display: flex;
+    }
   }
 
   @media (min-width: 1070px) {
-    .GettingStartedContainer{
+    .GettingStartedContainer {
       max-height: 700px;
       overflow: hidden;
     }
@@ -49,6 +58,5 @@ export const GettingStartedStyles = styled.div`
   }
 
   @media (min-width: 1500px) {
-
   }
 `;
