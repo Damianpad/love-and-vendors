@@ -4,6 +4,7 @@ export const GSStepStyled = styled.div`
   display: flex;
   flex-direction: column;
 
+
   .title {
     font-size: 30px;
     font-weight: 200;
