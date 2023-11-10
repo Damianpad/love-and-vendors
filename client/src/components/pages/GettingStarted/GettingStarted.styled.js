@@ -18,9 +18,7 @@ export const GettingStartedStyles = styled.div`
   }
 
   .GettingStartedImage {
-    width: 100%; /* Make the image fill the container horizontally */
-    height: 100%; /* Make the image fill the container vertically */
-    object-fit: cover;
+
   }
 
   .GettingStartedImage img {
@@ -37,24 +35,12 @@ export const GettingStartedStyles = styled.div`
 
   @media (min-width: 750px) {
     .ImageContainer {
-      width: 50%;
-      display: flex;
+
     }
   }
 
   @media (min-width: 1070px) {
-    .GettingStartedContainer {
-      max-height: 700px;
-      overflow: hidden;
-    }
-    .GettingStartedImage {
-      width: 100%; /* Make the image fill the container horizontally */
-      height: 100%; /* Make the image fill the container vertically */
-      object-fit: cover;
-    }
-    .ImageContainer {
-      max-width: 50%;
-    }
+
   }
 
   @media (min-width: 1500px) {

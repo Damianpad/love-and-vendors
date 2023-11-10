@@ -3,20 +3,24 @@ import StartedImage from "../../StartedImage/StartedImage";
 import { GettingStartedStyles } from "./GettingStarted.styled";
 import GSStep from "../../GSStep/GSStep";
 import UserRole from "../../UserRole/UserRole.jsx";
-import GettingStartedImage from "../../../assets/img/LV_GettingStarted_Img.jpg";
+// import GettingStartedImage from "../../../assets/img/LV_GettingStarted_Img.jpg";
+
+import GettingStartedImage from "../../GettingStartedImage/GettingStartedImage.jsx";
 
 export default function GettingStarted() {
   return (
     <GettingStartedStyles>
       <section className="GettingStartedContainer">
 
-        <section className="ImageContainer">
+        {/* <section className="ImageContainer">
           <img
             src={GettingStartedImage}
             alt="My Image"
             className="GettingStartedImage"
           />
-        </section>
+        </section> */}
+
+        <GettingStartedImage />
 
         <section className="GSStepContainer">
           <GSStep />
