@@ -1,22 +1,19 @@
 import styled from "styled-components";
 
 export const NavigationStyled = styled.div`
-
-
   nav {
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center
-
+    align-items: center;
+    height: 8em;
   }
 
   .btnContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: .4em;
+    padding: 0.4em;
     height: 100%;
   }
 
@@ -25,10 +22,10 @@ export const NavigationStyled = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: .2em;
+    margin: 0.2em;
   }
 
-  .logo{
+  .logo {
     color: black;
     font-size: 24px;
     text-transform: uppercase;
@@ -49,7 +46,7 @@ export const NavigationStyled = styled.div`
   }
 
   .loginBtn {
-    background: #FAD7D7;
+    background: #fad7d7;
     color: black;
     border: 1px solid black;
     border-radius: 15px;
@@ -64,34 +61,38 @@ export const NavigationStyled = styled.div`
   }
 
   @media (max-width: 425px) {
-        color: white;
-        .getStartedBtn{
-          font-size: 12px;
-          
-        }
-        .loginBtn{
-          font-size: 20px;
-        }
+    color: white;
+    .getStartedBtn {
+      font-size: 12px;
     }
-    @media (min-width: 666px){
-      .getStartedBtn{
-        width: 150px;
-        max-width: 500px;
-      }
-      .loginBtn{
-        width: 180px;
-        max-width: 500px;
-      }
+    .loginBtn {
+      font-size: 20px;
     }
-  @media (min-width: 700px){
-    .getStartedBtn{
-          
-          width: 200px;
-          max-width: 500px;
-        }
-      .loginBtn{
-        width: 230px;
-          max-width: 500px;
-      }
+  }
+  @media (min-width: 666px) {
+    .getStartedBtn {
+      width: 150px;
+      max-width: 500px;
+    }
+    .loginBtn {
+      width: 180px;
+      max-width: 500px;
+    }
+  }
+  @media (min-width: 700px) {
+    .getStartedBtn {
+      width: 200px;
+      max-width: 500px;
+    }
+    .loginBtn {
+      width: 230px;
+      max-width: 500px;
+    }
+  }
+  @media (min-width: 800px) {
+    .btnContainer {
+      display: flex;
+      flex-direction: row;
+    }
   }
 `;
