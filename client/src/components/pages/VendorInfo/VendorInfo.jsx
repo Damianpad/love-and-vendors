@@ -7,13 +7,15 @@ import GettingStartedImage from "../../GettingStartedImage/GettingStartedImage";
 export default function VendorInfo() {
   return (
     <VendorInfoStyled>
-      <GettingStartedImage />
-      <GSStep />
-      <h2>Welcome Vendor! Let's get some more information about you</h2>
+      <section className="VendorInfoContainer">
+        <GettingStartedImage />
+        <section className="vendorFormContainer">
+          <GSStep />
+          <h2>Welcome Vendor! Let's get some more information about you</h2>
 
-      <VendorInfoForm />
-      
-      
+          <VendorInfoForm />
+        </section>
+      </section>
     </VendorInfoStyled>
   );
 }

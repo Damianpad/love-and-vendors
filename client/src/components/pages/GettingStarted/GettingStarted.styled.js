@@ -18,7 +18,6 @@ export const GettingStartedStyles = styled.div`
   }
 
   .GettingStartedImage {
-
   }
 
   .GettingStartedImage img {
@@ -30,17 +29,14 @@ export const GettingStartedStyles = styled.div`
 
   .GSStepContainer {
     margin: 0 auto;
-
   }
 
   @media (min-width: 750px) {
     .ImageContainer {
-
     }
   }
 
   @media (min-width: 1070px) {
-
   }
 
   @media (min-width: 1500px) {
