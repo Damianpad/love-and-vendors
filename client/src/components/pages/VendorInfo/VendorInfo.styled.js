@@ -19,6 +19,7 @@ export const VendorInfoStyled = styled.div`
     border-radius: 15px;
   }
   .vendorFormContainer {
+    width: 50%;
     margin: 0 auto;
   }
 
