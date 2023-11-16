@@ -6,7 +6,7 @@ export default function CoupleFinish() {
   return (
     <CoupleFinishStyles>
       <section className="FinishContainer">
-      < GettingStartedImage />
+      <GettingStartedImage />
 
       <section className="stepContainer">
       <GSStep />

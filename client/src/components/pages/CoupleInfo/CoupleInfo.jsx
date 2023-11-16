@@ -8,11 +8,15 @@ export default function CoupleInfo() {
   return (
     <CoupleInfoStyles>
       <GettingStartedImage />
+
+      <section className="CoupleInfoContainer">
       <GSStep />
       <h1>Couple Info</h1>
       <Link to="/couple-finish">
         <button>Next</button>
       </Link>
+      </section>
+
     </CoupleInfoStyles>
   );
 }
