@@ -15,6 +15,9 @@ export default function Navigation() {
           <Link to={"/auth/login"} className="loginBtn">
             Log in
           </Link>
+          <Link to={"/vendor-listing"} className="loginBtn">
+            Vendor Listing
+          </Link>
         </section>
       </nav>
     </NavigationStyled>

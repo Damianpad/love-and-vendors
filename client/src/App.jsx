@@ -11,6 +11,7 @@ import CoupleFinish from "./components/pages/CoupleFinish/CoupleFinish";
 import VendorInfo from "./components/pages/VendorInfo/VendorInfo";
 import Footer from "./components/Footer/Footer";
 import Google from "./components/pages/Google/Google";
+import VendorListing from "./components/pages/VendorListing/VendorListing";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/couple-finish" element={<CoupleFinish />}></Route>
         <Route path="/vendor-info" element={<VendorInfo />}></Route>
         <Route path="/google" element={<Google />}></Route>
+        <Route path="/vendor-listing" element={<VendorListing />}></Route>
       </Routes>
       <Footer />
     </>
