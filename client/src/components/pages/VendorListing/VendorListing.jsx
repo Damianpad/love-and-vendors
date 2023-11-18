@@ -1,15 +1,16 @@
 import { VendorListingStyled } from "./VendorListing.styled"
+import CoverPhoto from "../../../assets/img/LV_1.jpg"
 
 export default function VendorListing() {
   return(
     <VendorListingStyled>
-      <section>
-        Cover Photo
+      <section className="CoverPhotoContainer">
+        <img src={CoverPhoto} alt="" />
       </section>
 
-      <section>
-        <h2>Business Name</h2>
-        <h3>Business Category based in Service Area</h3>
+      <section className="VendorNameContainer">
+        <h2>Parallax Films</h2>
+        <h3>Videographer base in Lewisville, TX</h3>
       </section>
 
       <section>
