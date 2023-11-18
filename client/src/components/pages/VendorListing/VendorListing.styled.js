@@ -25,7 +25,8 @@ export const VendorListingStyled = styled.div`
     padding: 1em;
   }
 
-  .VendorNameContainer h2, h3 {
+  .VendorNameContainer h2,
+  h3 {
     margin: 0;
     font-weight: 200;
   }

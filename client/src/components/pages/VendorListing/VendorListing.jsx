@@ -1,8 +1,9 @@
-import { VendorListingStyled } from "./VendorListing.styled"
-import CoverPhoto from "../../../assets/img/LV_1.jpg"
+import { VendorListingStyled } from "./VendorListing.styled";
+import CoverPhoto from "../../../assets/img/LV_1.jpg";
+import Line from "../../Line/Line";
 
 export default function VendorListing() {
-  return(
+  return (
     <VendorListingStyled>
       <section className="CoverPhotoContainer">
         <img src={CoverPhoto} alt="" />
@@ -13,6 +14,7 @@ export default function VendorListing() {
         <h3>Videographer base in Lewisville, TX</h3>
       </section>
 
+      <Line />
       <section>
         <h2>Services Offered</h2>
       </section>
@@ -34,6 +36,6 @@ export default function VendorListing() {
           <h2>Examples of Work</h2>
         </section>
       </section>
-    </VendorListingStyled >
-  )
-};
+    </VendorListingStyled>
+  );
+}
